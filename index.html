@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./recipe.js"></script>
+    <meta charset="utf-8" />
+    <link href="stylesheet.css" rel="stylesheet"/>
+    <header class="header">
+        <div class="navbar">
+            <div class="left">
+                <img src="./mealmaticlogo.png" alt="">
+                <h1 id="title">MealMatic</h1>
+            </div>
+            <div class="right">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="planner.html">MealPlanner</a></li>
+                        <li><a href="recipe_index.html">RecipeGenerator</a></li>
+                        <li><a href="index.html">IngredientsGenerator</a></li>
+                        <li><a href="shopping_list.html">GroceryList</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+</head>
+<body>
+    <center><h1 id="IG">Ingredients Generator</h1></center>
+    <div class="converter-container">
+        <div>
+            <input type="text" placeholder="Enter recipe name" id="goal" autocomplete="off"/>
+        </div>
+        <button id="myButton" onclick="getTextField()">Generate</button>
+    </div>
+    <div id="tableContainer"></div>
+    <div id="button-cont">
+    <a href="index.html"><button id="myButton" onclick="clearAndReturn()">Return</button></a>
+    <button id="viewShoppingList">View Grocery List</button>
+</div>
+<script>
+    document.getElementById("viewShoppingList").addEventListener("click", function() {
+        window.location.href = "shopping_list.html";
+    });
+</script>
+
+</body>
+</html>

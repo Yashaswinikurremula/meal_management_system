@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background: url("./groc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.header {
+    background-color: #80BCBD;
+    color: aliceblue;
+    padding: 20px 0;
+}
+.header a{
+    text-align: center;
+    font-size: 18px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar img{
+    margin-left: 10px;
+}
+
+.left {
+    flex: 1; /* Adjust the flex property to control the width */
+    display: flex; /* Add flex display to align items side by side */
+    align-items: center; /* Align items vertically in the center */
+}
+.header h1{
+    color:#fff;
+    margin-top: 0px;
+}
+
+h1{
+    color:#5D9B9B;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.right {
+    flex: 0.75;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding to create button-like appearance */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #80BCBD; /* Set background color */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.navbar ul li a:hover {
+    background-color: #5D9B9B; /* Change background color on hover */
+}
+.left {
+    flex: 1; /* Adjust the flex property to control the width */
+    display: flex; /* Add flex display to align items side by side */
+    align-items: center; /* Align items vertically in the center */
+}
+
+
+#button-cont{
+    display: flex;
+    justify-content: center;
+}
+
+#myButton ,#viewShoppingList{
+    margin: 0px 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: auto;
+    border: 0px;
+    background-color: #80BCBD;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#downloadButtong{
+    margin: 0px 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: auto;
+    border: 0px;
+    background-color: #80BCBD;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#shoppingListTable{
+    width: 500px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+#shoppingListTable th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.converter-container {
+    margin: 50px auto;
+    width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: #333;
+    text-align: center;
+}
+
+.converter-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.converter-container input[type="text"],
+.converter-container select {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+#goal {
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.converter-container button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #80BCBD;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Added spacing below the button */
+}
+
+.converter-container button:hover {
+    background-color: #80BCBD;
+}
+
+.tableContainer{
+    color-scheme: #80BCBD;
+}
+table {
+    width: 100%;
+}
+
+/* CSS for the ingredients list */
+.ingredient-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Reset default padding */
+}
+
+.ingredient-list li {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* CSS for each ingredient and the "Add to List" button */
+.ingredient {
+    padding-right: 10px; /* Adjust as needed */
+}
+
+.add-to-list-btn {
+    margin-left: 10px; /* Add spacing between ingredient and button */
+}
+
+#tableContainer {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: none;
+    font-size: 30px;
+    border-style: solid;
+}
+
+table {
+    border-color: #80BCBD;
+    color: #333; /* Color for bullet points */
+}
+
+table td {
+    padding-left: 10px; /* Add padding beside each ingredient */
+}
+
+ul {
+    list-style-type: disc; /* Use disc as bullet point style */
+    padding-left: 20px; /* Adjust spacing between bullet points and text */
+}
+
+#button:hover{
+    background: #80BCBD;
+    cursor: wait;
+}
+#viewShoppingList:hover{
+    background: #80BCBD;
+    cursor:e-resize
+}

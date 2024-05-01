@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+/* Basic styling */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background: url("./recbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.header {
+    background-color: #80BCBD;
+    padding: 20px 0;
+}
+.header a{
+    text-align: center;
+    font-size: 18px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar img{
+    margin-left: 10px;
+}
+
+.left {
+    flex: 1; /* Adjust the flex property to control the width */
+    display: flex; /* Add flex display to align items side by side */
+    align-items: center; /* Align items vertically in the center */
+}
+h1{
+    margin-left: 10px;
+}
+
+.right {
+    flex: 0.75;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Add padding to create button-like appearance */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #80BCBD; /* Set background color */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.navbar ul li a:hover {
+    background-color: #5D9B9B; /* Change background color on hover */
+}
+
+.home-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    background-color: #80BCBD;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color:#fff;
+}
+
+.box p {
+    font-size: 1rem;
+    color:#fff;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #80BCBD;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
