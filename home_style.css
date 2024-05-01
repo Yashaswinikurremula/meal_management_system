@@ -20,6 +20,18 @@ body {
     color: #fff;
 }
 
+.box:hover{
+    animation: box-size 1s 0.2s;
+}
+@keyframes box-size{
+    0%{
+        transform: scale(1);
+
+    }
+    100%{
+        transform: scale(1.2);
+}
+}
 .header {
     background-color: #80BCBD;
     padding: 20px 0;
